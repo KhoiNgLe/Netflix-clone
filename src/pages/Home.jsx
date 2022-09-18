@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <div>
         <Main/>
-        <Row title="Upcoming" fetchURL={requests.requestUpcoming} />
-        <Row title="TopRated" fetchURL={requests.requestTopRated} />
-        <Row title="Trending" fetchURL={requests.requestTrending} />
-        <Row title="Horror" fetchURL={requests.requestHorror} />
+        <Row rowID="1" title="Upcoming" fetchURL={requests.requestUpcoming} />
+        <Row rowID="2" title="TopRated" fetchURL={requests.requestTopRated} />
+        <Row rowID="3" title="Trending" fetchURL={requests.requestTrending} />
+        <Row rowID="4" title="Horror" fetchURL={requests.requestHorror} />
 
 
 
